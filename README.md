@@ -1,2 +1,16 @@
-# College Basketball and its Archetypes
-College basketball often garners much fewer viewers than its professional counterpart, the NBA. Understandably so, the level of play and the entertainment of high-skilled professional players in the NBA has long attracted media sponsors, the general American populace, and more increasingly: global fans. However, in recent years fans have questioned the lack of excitement in the game and feel as if the game has turned into a 3-pt shooting fest that often leads to little physicality and entertainment. I believe College Basketball could be an alternative for basketball fans and be even more exciting than the NBA.
+---
+title: "College Basketball Archetypes"
+output: github_document
+---
+
+# College Basketball Archetypes
+
+This project seeks to define how a team's players interact with one another in terms of their individual archetypes. Specifically, it examines:
+
+- How different archetypes function within a team’s lineup.
+- Which lineups are the most efficient based on player archetypes.
+- How teams match up against each other based on their archetypal compositions.
+
+By analyzing these factors, we can gain insights into how certain player combinations contribute to a team’s overall success. This project aims to explore whether particular archetypes lead to stronger team performance, how teams optimize their lineups, and how different playstyles impact matchups. The findings could be useful for coaches, analysts, and fans looking to understand the strategic side of team-building in college basketball.
+
+Future areas of exploration may include expanding the dataset across multiple seasons, refining the classification of player archetypes, and using predictive models to assess the effectiveness of various lineup configurations.
