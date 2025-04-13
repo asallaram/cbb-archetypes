@@ -17,7 +17,7 @@ Team success in college basketball is based not only on the talent available on 
     - Combo G- Guards with 10-15% assist rate but had above 40% shooting in either 2P or 3P shooting(at least 50 shots taken).
       - Lots of shooting guards fit into this criteria along with some play-making small forwards.
     - Wing G- Guards that didn't fit the criteria of Pure PG, Scoring PG, or Combo G.
-      - Largely shooting guards that rarely passed the ball.
+      - Primarily off-ball guards with low assist rates.
     - Wing F- Small Forwards and Power Forwards classified as wings by ESPN.
       - Largely 3 and D players that ESPN classified as wings.
     - Stretch 4- Power Forwards that took at least 50 3's.
@@ -38,7 +38,7 @@ Team success in college basketball is based not only on the talent available on 
       - "Defensive C"- Further establish this player as an impactful defensive Center compared to other players his position.
     - 2-Way- Players in the top 0.5 standard deviations in both obpr and dbpr.
       - "2-Way Stretch 4"- Further establish this player as an impact offensive and defensive Stretch 4 compared to other players his position.
- - I then collected line-ups for each P5 team that played atleast 150 possessions together. While some line-ups were thrown out due to some players not meeting the possessions cateogory above,      I was able to find 668 line-ups
+ - I then collected line-ups for each P5 team that played atleast 150 possessions together. While some line-ups were thrown out due to some players not meeting the possessions cateogory above,      I was able to find 668 line-ups total.
  - I created one lineup that included players tagged as Offensive, Defensive, or Two-Way, and another lineup without those tags. Naturally, a lineup filled with highly effective, tagged players     is expected to perform well—so I used that as a benchmark to explore which combinations of tags and positions contribute most to team success. The untagged (or normal) lineup was primarily       used to test the most effective archetypal builds, matchup advantages, and other lineup-related metrics.
    
 ## Methodology
