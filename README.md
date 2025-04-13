@@ -51,7 +51,6 @@ Team success in college basketball is based not only on the talent available on 
 
 ## Goals
 
-- Evaluate lineup performance through the idea of archetypes.
 - Identify high-performing and underperforming archetype combinations.
 - Offer predictive insights for in-game lineup decisions based on match-up.
 
