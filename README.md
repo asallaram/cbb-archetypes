@@ -6,7 +6,11 @@ Team success in college basketball is based not only on the talent available on 
 
 ## Methodology 
 
-- First, we gathered players from the P5 conferences 
+- First, I gathered players from the consensus top 5 conferences of college basketball: ACC, Big 12, B10, Big East, SEC
+  - I only wanted to consider players that had played a marginal amount of their team's possessions in order for their impact on the team and their
+    personal stats to be meaningful and not due to a small sample size. So players with atleast 475 possessions (team has the ball on offense) and a 20% usage rate(played at least 20% of their       team's overall possessions) were selected.
+  - Using the official position listed on ESPN for a player, I then further classified the players into the following categories with the following characteristics
+  - 
 
 ## Data Sources
 
