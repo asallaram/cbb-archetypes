@@ -6,8 +6,7 @@ Team success in college basketball is based not only on the talent available on 
 
 ## Methodology 
 
-The following pieces of data were pulled from the sites of Bart Torvik and Evan Miya (linked in Data Sources)
-- 
+- First, we gathered players from the P5 conferences 
 
 ## Data Sources
 
