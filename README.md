@@ -6,11 +6,32 @@ Team success in college basketball is based not only on the talent available on 
 
 ## Methodology 
 
-- First, I gathered players from the consensus top 5 conferences of college basketball: ACC, Big 12, B10, Big East, SEC
+- First, I gathered players from the consensus top 5 conferences of college basketball: ACC, Big 12, B10, Big East, SEC.
   - I only wanted to consider players that had played a marginal amount of their team's possessions in order for their impact on the team and their
-    personal stats to be meaningful and not due to a small sample size. So players with atleast 475 possessions (team has the ball on offense) and a 20% usage rate(played at least 20% of their       team's overall possessions) were selected.
-  - Using the official position listed on ESPN for a player, I then further classified the players into the following categories with the following characteristics
-  - 
+    personal stats to be meaningful and not due to a small sample size. So players with atleast 475 possessions (team has the ball on offense) were selected.
+  - Using the official position listed on ESPN for a player, I then further classified the players into the following categories with the following characteristics:
+    - Pure PG- Guards with >25% assist rate and >20% usage rate.
+      - Primarily a ball handler with mediocre shooting stats.
+    - Scoring PG- Guard with >15% assist rate and above 40% shooting in either 2P shooting or 3P shooting(at least 50 shots taken).
+      - A ball handler that is also efficient and above average at shooting.
+    - Combo G- Guards with 10-15% assist rate but had above 40% shooting in either 2P or 3P shooting(at least 50 shots taken).
+      - Lots of shooting guards fit into this criteria along with some play-making small forwards.
+    - Wing G- Guards that didn't fit the criteria of Pure PG, Scoring PG, or Combo G.
+      - Largely shooting guards that rarely passed the ball.
+    - Wing F- Small Forwards and Power Forwards classified as wings by ESPN.
+      - Largely 3 and D players that ESPN classified as wings.
+    - Stretch 4- Power Forwards that took at least 50 3's.
+      - While maybe not very accurate, players that averaged above 1 attempted 3 a game were given a Stretch 4 archetype.
+    - Stretch PF/C- PF/C hybrids that took at least 35 3s and made them at a 30% rate.
+      - PF/C that averaged above a 3 attempted a game, but I decided to give it a 30% accuracy rate to take out the outliers of some PF/C shooting largely because they were left open and not             being accurate.
+    - Paint PF/C- PF/C that didn't stretch the floor.
+      - PF/C that were the more prototypical definition of their positions.
+    - Stretch C- Centers that took at least 35 3s and made them at a 30% rate.
+      - C that averaged above a 3 attempted a game, but I decided to give it a 30% accuracy rate to take out the outliers of some C shooting largely because they were left open and not                   being accurate.
+    - Paint C - Centers that didn't stretch the floor.
+      - Centers that didn't stretch the floor. 
+ 
+ - However, I felt that just the position didn't accurately convey the impact of certain players(i.e. top players compared to their average counterparts at a position). I decided to add markers     for the top offensive, defensive, and two-way players at positions. I also added a playmaker tag that allowed non-guards to be recognized as such. Cooper Flagg who had a 26.3% assist rate       would not be considered a PG, but his high assist rate conveys him as a play-making Stretch 4. 
 
 ## Data Sources
 
