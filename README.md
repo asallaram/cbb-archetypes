@@ -10,34 +10,27 @@ Team success in college basketball is based not only on the talent available on 
   - I only wanted to consider players that had played a marginal amount of their team's possessions in order for their impact on the team and their
     personal stats to be meaningful and not due to a small sample size. So players with atleast 475 possessions (team has the ball on offense) were selected. The assist% and usage% were taken        from Bart Torvik
   - Using the official position listed on ESPN for a player, I then further classified the players into the following categories with the following characteristics:
-    - Pure PG- Guards with >25% assist rate and >20% usage rate.
-      - Primarily a ball handler with mediocre shooting stats.
-    - Scoring PG- Guard with >15% assist rate and above 40% shooting in either 2P shooting or 3P shooting(at least 50 shots taken).
-      - A ball handler that is also efficient and above average at shooting.
-    - Combo G- Guards with 10-15% assist rate but had above 40% shooting in either 2P or 3P shooting(at least 50 shots taken).
-      - Lots of shooting guards fit into this criteria along with some play-making small forwards.
-    - Wing G- Guards that didn't fit the criteria of Pure PG, Scoring PG, or Combo G.
-      - Primarily off-ball guards with low assist rates.
-    - Wing F- Small Forwards and Power Forwards classified as wings by ESPN.
-      - Largely 3 and D players that ESPN classified as wings.
-    - Stretch 4- Power Forwards that took at least 50 3's.
-      - While maybe not very accurate, players that averaged above 1 attempted 3 a game were given a Stretch 4 archetype.
-    - Stretch PF/C- PF/C hybrids that took at least 35 3s and made them at a 30% rate.
-      - PF/C that averaged above a 3 attempted a game, but I decided to give it a 30% accuracy rate to take out the outliers of some PF/C shooting largely because they were left open and not             being accurate.
-    - Paint PF/C- PF/C that didn't stretch the floor.
-      - PF/C that were the more prototypical definition of their positions.
-    - Stretch C- Centers that took at least 35 3s and made them at a 30% rate.
-      - C that averaged above a 3 attempted a game, but I decided to give it a 30% accuracy rate to take out the outliers of some C shooting largely because they were left open and not                   being accurate.
-    - Paint C - Centers that didn't stretch the floor.
-      - Centers that didn't stretch the floor. 
+| **Player Type**     | **Criteria**                                                                                                                                                              | **Description**                                                                                                                                                       |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pure PG**         | >25% assist rate and >20% usage rate                                                                                                                                      | Primarily a ball handler with mediocre shooting stats.                                                                                                                 |
+| **Scoring PG**      | >15% assist rate and above 40% shooting in either 2P or 3P shooting (at least 50 shots taken)                                                                              | A ball handler that is also efficient and above average at shooting.                                                                                                 |
+| **Combo G**         | 10-15% assist rate with above 40% shooting in either 2P or 3P shooting (at least 50 shots taken)                                                                          | Guards with lots of shooting and some playmaking, including some small forwards.                                                                                      |
+| **Wing G**          | Guards that didn't fit Pure PG, Scoring PG, or Combo G                                                                                                                    | Primarily off-ball guards with low assist rates.                                                                                                                     |
+| **Wing F**          | Small Forwards and Power Forwards classified as wings by ESPN                                                                                                             | Largely 3-and-D players that ESPN classified as wings.                                                                                                               |
+| **Stretch 4**       | Power Forwards that took at least 50 3's                                                                                                                                 | Power forwards who averaged above 1 three-point attempt per game, regardless of shooting accuracy.                                                                   |
+| **Stretch PF/C**    | PF/C hybrids that took at least 35 3s and made them at a 30% rate                                                                                                         | PF/C that averaged more than 1 three-point attempt per game, with a minimum 30% shooting accuracy to avoid outliers.                                                 |
+| **Paint PF/C**      | PF/C that didn't stretch the floor                                                                                                                                       | More prototypical power forwards/centers that do not shoot beyond the arc.                                                                                          |
+| **Stretch C**       | Centers that took at least 35 3s and made them at a 30% rate                                                                                                             | Centers who averaged more than 1 three-point attempt per game, with at least 30% accuracy.                                                                         |
+| **Paint C**         | Centers that didn't stretch the floor                                                                                                                                       | Traditional centers that do not shoot three-pointers.                                                                                                               |
+
  - However, I felt that just the position didn't accurately convey the impact of certain players(i.e. top players compared to their average counterparts at a position). I decided to add markers     for the top offensive, defensive, and two-way players at positions. I also considered adding a playmaker tag that allowed non-guards to be recognized as such. Cooper Flagg who had a 26.3%   
    assist rate would not be considered a PG, but his high assist rate would convey him as a play-making Stretch 4. However, I found that through modeling the play-making tag was often having the    same effect as the offensive tag and so the tag was not included. 
-    - Offensive- Players in the top 0.5 standard deviations above the mean(~32%) of the obpr(Offensive Bayesian Performance Ratings from Evan Miya) were given an offensive tag.
-      - "Offensive Wing G"- Further establish this player as an impactful offensive Wing G compared to other players his position.
-    - Defensive- Players in the top 0.5 standard deviations above the mean(~32%) of the dbpr(Defensive Bayesian Performance Ratings from Evan Miya) were given a defensive tag.
-      - "Defensive C"- Further establish this player as an impactful defensive Center compared to other players his position.
-    - 2-Way- Players in the top 0.5 standard deviations in both obpr and dbpr.
-      - "2-Way Stretch 4"- Further establish this player as an impact offensive and defensive Stretch 4 compared to other players his position.
+    | **Tag Type**        | **Criteria**                                                                                                                                                              | **Description**                                                                                                                                                       |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Offensive**       | Top 0.5 standard deviations above the mean (~32%) of Offensive Bayesian Performance Rating (OBPR)                                                                       | Players in the top offensive performance range, indicating an above-average offensive impact.                                                                        |
+| **Defensive**       | Top 0.5 standard deviations above the mean (~32%) of Defensive Bayesian Performance Rating (DBPR)                                                                       | Players in the top defensive performance range, indicating an above-average defensive impact.                                                                        |
+| **2-Way**           | Top 0.5 standard deviations in both OBPR and DBPR                                                                                                                         | Players who excel in both offensive and defensive metrics, indicating overall balanced performance.                                                                  |
+
  - I then collected line-ups for each P5 team that played atleast 150 possessions together. While some line-ups were thrown out due to some players not meeting the possessions cateogory above,      I was able to find 668 line-ups total.
  - I created one lineup that included players tagged as Offensive, Defensive, or Two-Way, and another lineup without those tags. Naturally, a lineup filled with highly effective, tagged players     is expected to perform well—so I used that as a benchmark to explore which combinations of tags and positions contribute most to team success. The untagged (or normal) lineup was primarily       used to test the most effective archetypal builds, matchup advantages, and other lineup-related metrics.
    
@@ -51,8 +44,8 @@ Team success in college basketball is based not only on the talent available on 
 
 ## Goals
 
-- Identify high-performing and underperforming archetype combinations.
-- Offer predictive insights for in-game lineup decisions based on match-up.
+- Identify high-performing and underperforming archetype combinations and examine how these do in-game in terms of bayesian rating.
+- Examine which archetypes(tagged) are most frequent in the top and bottom bpr line-ups.
 
 ## Data Dictionary (all in archetypes.csv
 
