@@ -38,12 +38,9 @@ Team success in college basketball is based not only on the talent available on 
       - "Defensive C"- Further establish this player as an impactful defensive Center compared to other players his position.
     - 2-Way- Players in the top 0.5 standard deviations in both obpr and dbpr.
       - "2-Way Stretch 4"- Further establish this player as an impact offensive and defensive Stretch 4 compared to other players his position.
- - I then collected line-ups for each P5 team that played atleast 150 possessions together. While some line-ups were thrown out due to some players not meeting the possessions cateogory above,      I was able to find 668 line-ups total.
- - I created one lineup that included players tagged as Offensive, Defensive, or Two-Way, and another lineup without those tags. Naturally, a lineup filled with highly effective, tagged players     is expected to perform well—so I used that as a benchmark to explore which combinations of tags and positions contribute most to team success. The untagged (or normal) lineup was primarily       used to test the most effective archetypal builds, matchup advantages, and other lineup-related metrics.
-   
-## Methodology
-- 
- 
+ - I then collected line-ups for each P5 team that played atleast 150 possessions together. While some line-ups were thrown out due to some players not meeting the possessions cateogory above, I was able to find 668 line-ups total.
+ - I created one lineup that included players tagged as Offensive, Defensive, or Two-Way, and another lineup without those tags. Naturally, a lineup filled with highly effective, tagged players is expected to perform well—so I used that as a benchmark to explore which combinations of tags and positions contribute most to team success. The untagged (or normal) lineup was primarily used to test the most effective archetypal builds, matchup advantages, and other lineup-related metrics.
+    
 
 ## Data Sources
 - https://barttorvik.com/trank.php#
