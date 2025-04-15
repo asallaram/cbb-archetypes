@@ -31,7 +31,7 @@ Team success in college basketball is based not only on the talent available on 
     - Paint C - Centers that didn't stretch the floor.
       - Centers that didn't stretch the floor. 
  - However, I felt that just the position didn't accurately convey the impact of certain players(i.e. top players compared to their average counterparts at a position). I decided to add markers     for the top offensive, defensive, and two-way players at positions. I also considered adding a playmaker tag that allowed non-guards to be recognized as such. Cooper Flagg who had a 26.3%   
-   assist rate would not be considered a PG, but his high assist rate would convey him as a play-making Stretch 4. However, I found that through modeling the play-making tag was often having the    same effect as the offensive tag and so the tag was not included. 
+   assist rate would not be considered a PG, but his high assist rate would convey him as a play-making Stretch 4. However, I found that through modeling the play-making tag was often having the same effect as the offensive tag and so the tag was not included. 
     - Offensive- Players in the top 0.5 standard deviations above the mean(~32%) of the obpr(Offensive Bayesian Performance Ratings from Evan Miya) were given an offensive tag.
       - "Offensive Wing G"- Further establish this player as an impactful offensive Wing G compared to other players his position.
     - Defensive- Players in the top 0.5 standard deviations above the mean(~32%) of the dbpr(Defensive Bayesian Performance Ratings from Evan Miya) were given a defensive tag.
