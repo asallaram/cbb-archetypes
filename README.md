@@ -43,9 +43,11 @@ Team success in college basketball is based not only on the talent available on 
     
 
 ## Data Sources
-- https://barttorvik.com/trank.php#
-- https://evanmiya.com/?player_ratings
-- https://www.espn.com/mens-college-basketball/stats
+-ESPN. Men’s College Basketball Stats – 2024–25 Season. ESPN, 2025, https://www.espn.com/mens-college-basketball/stats.
+
+-EvanMiya. Player Ratings – 2024–25 Season. EvanMiya.com, 2025, https://evanmiya.com/?player_ratings.
+
+-Torvik, Bart. T-Rankings – 2024–25 College Basketball Stats. BartTorvik.com, 2025, https://barttorvik.com/trank.php.
 
 ## Goals
 
