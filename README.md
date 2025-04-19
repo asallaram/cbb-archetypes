@@ -45,6 +45,7 @@ Team success in college basketball is based not only on the talent available on 
 ## Data Sources
 - https://barttorvik.com/trank.php#
 - https://evanmiya.com/?player_ratings
+- https://www.espn.com/mens-college-basketball/stats
 
 ## Goals
 
