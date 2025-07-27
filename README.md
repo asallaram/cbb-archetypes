@@ -54,7 +54,7 @@ Team success in college basketball is based not only on the talent available on 
 - Identify high-performing and underperforming archetype combinations and examine how these do in-game in terms of bayesian rating.
 - Examine which archetypes(tagged) are most frequent in the top and bottom bpr line-ups.
 
-## Data Dictionary (all in archetypes.csv
+## Data Dictionary (all in archetypes.csv)
 
 ### **1. `archetypes tab`**
 |   Column              | Description(Assist%/Usage% found in assist-to-stats tab)                        |
@@ -122,6 +122,14 @@ Team success in college basketball is based not only on the talent available on 
 | `team_off_eff`                    | Raw team offensive efficiency during this lineup                           |
 | `team_def_eff`                    | Raw team defensive efficiency during this lineup                           |
 | `team_eff_margin`                 | Raw efficiency margin (off - def) during this lineup                       |
+
+## Results
+
+Analysis of high-possesion lineups across Power 5 college basketball teams revealed that archetype synergy plays a significant role in lineup success. Top-performing lineups frequently included versatile frontcourt players, such as 2-Way Stretch 4s and 2-Way Paint PF/Cs, who offered both offensive spacing and defensive impact. Among guards, Scoring Point Guards and Combo Guards appeared most often in lineups with high adjusted efficiency margins, highlighting the value of scoring ability and playmaking ability. On the other hand, Paint Centers and untagged Wing Guards were common in underperforming lineups, suggesting that limited floor spacing or low offensive contribution can suppress team output. Even in untagged lineups, balanced compositions — particularly those pairing a Pure Point Guard with a Stretch Big — tended to yield better results, reinforcing the importance of role complementarity over position-based lineup building.
+
+Looking ahead, this framework opens several avenues for further exploration. Future work could investigate how specific archetype matchups influence game outcomes — for instance, how a Paint Center fares against a Stretch 5 in head-to-head settings. Expanding the archetype model to incorporate traits like switchability, transition finishing, or zone-breaking ability could refine the tagging system and make it even more actionable. Incorporating coaching styles, tempo, or opponent context could also help capture nuances in lineup success. I hope to implement techniques that can predict how a team may do with a certain line-up, what would best complete a specific team based on the data from this previous year.
+
+The practical implications of this work are broad. Coaches and analysts can use these findings to inform lineup construction and in-game rotations by emphasizing archetypal diversity and functional synergy. For teams navigating the transfer portal or recruiting decisions, archetype fit — rather than just raw talent — can guide more efficient roster building. Overall, this study demonstrates how combining statistical performance metrics with qualitative archetype modeling offers a scalable, interpretable approach to evaluating college basketball lineups.
 
 
 ## Author
