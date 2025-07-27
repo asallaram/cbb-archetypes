@@ -41,14 +41,6 @@ Team success in college basketball is based not only on the talent available on 
  - I then collected line-ups for each P5 team that played atleast 150 possessions together. While some line-ups were thrown out due to some players not meeting the possessions cateogory above, I was able to find 668 line-ups total.
  - I created one lineup that included players tagged as Offensive, Defensive, or Two-Way, and another lineup without those tags. Naturally, a lineup filled with highly effective, tagged players is expected to perform well—so I used that as a benchmark to explore which combinations of tags and positions contribute most to team success. The untagged (or normal) lineup was primarily used to test the most effective archetypal builds, matchup advantages, and other lineup-related metrics.
     
-
-## Data Sources
--ESPN. Men’s College Basketball Stats – 2024–25 Season. ESPN, 2025, https://www.espn.com/mens-college-basketball/stats.
-
--EvanMiya. Player Ratings – 2024–25 Season. EvanMiya.com, 2025, https://evanmiya.com/?player_ratings.
-
--Torvik, Bart. T-Rankings – 2024–25 College Basketball Stats. BartTorvik.com, 2025, https://barttorvik.com/trank.php.
-
 ## Goals
 
 - Identify high-performing and underperforming archetype combinations and examine how these do in-game in terms of bayesian rating.
@@ -131,6 +123,12 @@ Looking ahead, this framework opens several avenues for further exploration. Fut
 
 The practical implications of this work are broad. Coaches and analysts can use these findings to inform lineup construction and in-game rotations by emphasizing archetypal diversity and functional synergy. For teams navigating the transfer portal or recruiting decisions, archetype fit — rather than just raw talent — can guide more efficient roster building. Overall, this study demonstrates how combining statistical performance metrics with qualitative archetype modeling offers a scalable, interpretable approach to evaluating college basketball lineups.
 
+## Data Sources
+-ESPN. Men’s College Basketball Stats – 2024–25 Season. ESPN, 2025, https://www.espn.com/mens-college-basketball/stats.
+
+-EvanMiya. Player Ratings – 2024–25 Season. EvanMiya.com, 2025, https://evanmiya.com/?player_ratings.
+
+-Torvik, Bart. T-Rankings – 2024–25 College Basketball Stats. BartTorvik.com, 2025, https://barttorvik.com/trank.php.
 
 ## Author
 
